@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #6969ad;
+    color: white;
+    font:  normal 20pt Arial ;
+}
+
+button{
+
+    cursor: pointer;
+}
+
+.container{
+    height: 100vh;
+    
+    
+}
+
+
+fieldset{
+    display: flex;
+    justify-content: center;
+    border: 2px solid ;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+button{
+    background-color: #6969ad;
+    border: none;
+    outline: none;
+    
+}
+
+.btnvoltar{
+    display: none;
+    position: absolute;
+    margin-top: 25vh;
+}
+
+.voltar i{
+   
+    color: white;
+    font-size: 4vh;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60%;
+}
+
+.opcoes i {
+
+    font-size: 3vh;
+    color: white;
+    transition: 0.2s;
+}
+
+button i:hover {
+    color: #4c408b;
+}
+
+.opcoes{
+
+    display: flex;
+    gap: 50px;
+}
+
+.input0{
+    display: none;
+    gap: 10px;
+    padding: 10px;
+}
+
+input{
+    border: none;
+    text-align: center;
+
+}
+
+
+input:focus{
+    border:none;
+    outline: none;
+}
+
+input::placeholder{
+
+    color: #6969ad;
+    
+}
+
+legend{
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 0 10px;
+    
+}
+
+
+.resultado{
+
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding: 20px;
+    margin-bottom: 0px;
+    
+}
+
+
+
+.btnresult{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: #3a3a7b;
+    font-size: 1.2rem;
+    width: 30%;
+    padding: 10px;
+    margin-top: 5px;
+    transition: background-color 0.7s;
+    
+}
+
+.btn:hover{
+    background-color: #4c408b;
+    color: white;
+}
